@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- SEO Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Sandia Group of Companies</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="assets/img/favicon.png">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Rubik:wght@100;300;400;500&display=swap" rel="stylesheet">
+  
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script> -->
+
+    <!-- GSAP Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- TailwindCSS -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <style>
+       .inline-svg {
+	        display: block;
+            margin: 0 auto;
+            width: 40px;
+            height: 40px;
+        }
+        .desktop-menu-icon .svg-menu-toggle {
+            fill: #000;
+            pointer-events: all;
+            cursor: pointer;
+        }
+        .desktop-menu-icon .svg-menu-toggle .bar {
+            -webkit-transform: rotate(0) translateY(0) translateX(0);
+            transform: rotate(0) translateY(0) translateX(0);
+            opacity: 1;
+            -webkit-transform-origin: 20px 10px;
+            transform-origin: 20px 10px;
+            -webkit-transition: -webkit-transform 0.4s ease-in-out, opacity 0.2s ease-in-out;
+            transition: transform 0.4s ease-in-out, opacity 0.2s ease-in-out;
+        }
+        .desktop-menu-icon .svg-menu-toggle .bar:nth-of-type(1) {
+            -webkit-transform-origin: 20px 10px;
+            transform-origin: 20px 10px;
+        }
+        .desktop-menu-icon .svg-menu-toggle .bar:nth-of-type(3) {
+            -webkit-transform-origin: 20px 20px;
+            transform-origin: 20px 20px;
+        }
+        .desktop-menu-icon.active .svg-menu-toggle .bar:nth-of-type(1) {
+            -webkit-transform: rotate(-45deg) translateY(0) translateX(0);
+            transform: rotate(-45deg) translateY(0) translateX(0);
+        }
+        .desktop-menu-icon.active .svg-menu-toggle .bar:nth-of-type(2) {
+            opacity: 0;
+        }
+        .desktop-menu-icon.active .svg-menu-toggle .bar:nth-of-type(3) {
+            -webkit-transform: rotate(45deg) translateY(0em) translateX(0em);
+            transform: rotate(45deg) translateY(0em) translateX(0em);
+        }
+        .banner-slider {
+            height: 100vh;
+            overflow: hidden;
+        }
+        .banner-slide {
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>
+                    <img src="assets/img/logo.png" alt="" sizes="" srcset="">
+                </h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p></p>
+                
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+
+                <!-- about sandia -->
+                <li class="">
+                    <a href="#aboutSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">About Sandia</a>
+                    <ul class="collapse list-unstyled" id="aboutSubmenu">
+                        <li>
+                            <a href="#">Who we are</a>
+                        </li>
+                        <li>
+                            <a href="#">Our Management Team</a>
+                        </li>
+                        <li>
+                            <a href="#">Organogram</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- business units -->
+                <li class="">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Our Business Units</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Sandia Engineering</a>
+                        </li> 
+                        <li>
+                            <a href="#">Sandia Energy</a>
+                        </li>
+                        <li>
+                            <a href="#">Sandia Agric</a>
+                        </li>
+                        <li>
+                            <a href="#">Sandia Innovations</a>
+                        </li>
+                        <li>
+                            <a href="#">Sandia Commodities</a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">What we do</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Careers</a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="" class="download">Contact Us</a>
+                </li>
+                <!-- <li>
+                    <a href="" class="article">Send an Equiry</a>
+                </li> -->
+            </ul>
+        </nav>
+
+        <!-- homepage slider -->
+        <div class="row d-none" id="custom-hp-slider">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active" >
+                <img src="https://snapzo.in/libs/images/sliders/banner-img_100983100.jpg" class="d-block img-fluid w-100" alt="" >
+                </div>
+                <div class="carousel-item" >
+                <img src="https://snapzo.in/libs/images/sliders/banner-img_322697292.jpg" class="d-block img-fluid w-100" alt="" >
+                </div>
+                <div class="carousel-item" >
+                <img src="https://snapzo.in/libs/images/sliders/banner-img_53880187.jpg" class="d-block img-fluid w-100" alt="" >
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </div>
+
+        <!-- Page Content  -->
+        <div id="content" >
+            <!--  -->
+            
+
+            <!-- top page navigation : show only on small devices -->
+            <!-- class="d-xxl-none d-xl-none d-lg-none d-md-block d-sm-block" -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light d-xl-none d-lg-none">
+                <div class="container-fluid">
+                    <!-- hamburger menu display on mobile devices -->
+                    <i class="desktop-menu-icon" id="sidebarCollapse">
+                        <svg id="svg" class="inline-svg" enable-background="new 0 0 32 22.5" height="80px" version="1.1" viewBox="0 0 32 22.5" width="80px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"><title></title><g class="svg-menu-toggle">
+                        <path class="bar" d="M20.945,8.75c0,0.69-0.5,1.25-1.117,1.25H3.141c-0.617,0-1.118-0.56-1.118-1.25l0,0c0-0.69,0.5-1.25,1.118-1.25h16.688C20.445,7.5,20.945,8.06,20.945,8.75L20.945,8.75z"></path>
+                        <path class="bar" d="M20.923,15c0,0.689-0.501,1.25-1.118,1.25H3.118C2.5,16.25,2,15.689,2,15l0,0c0-0.689,0.5-1.25,1.118-1.25 h16.687C20.422,13.75,20.923,14.311,20.923,15L20.923,15z"></path>
+                        <path class="bar" d="M20.969,21.25c0,0.689-0.5,1.25-1.117,1.25H3.164c-0.617,0-1.118-0.561-1.118-1.25l0,0c0-0.689,0.5-1.25,1.118-1.25h16.688C20.469,20,20.969,20.561,20.969,21.25L20.969,21.25z"></path>
+                        {C}<rect fill="none" height="80" width="80"></rect></g></svg>
+                    </i>
+                    <!-- logo -->
+                    <div class="logo-img img-fluid">
+                        <img src="assets/img/logo.png" width="80%" alt="Sandia Group">
+                    </div>
+                    <!-- <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button> -->
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- top-nav-main -->
+            <div class="top-container">
+                <div class="container">
+                    <div class="row d-nonee">
+                        <div class="col-sm-6 col-xs-12 col1">
+                            <h4>Sandia Group of Companies</h4>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 col2">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <a target="_blank" href="https://sandia-energy.com">Energy</a>
+                                    <a target="_blank" href="https://sandia-engineering.com">Engineering</a>
+                                    <a target="_blank" href="https://sandia-agric.com">Agric</a>
+                                    <a target="_blank" href="https://sansarinnovations.com">Innovations</a>
+                                    <a target="_blank" href="https://sandia-commodities.com">Commodities</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- page actual content start -->
+            <!-- breadcrumb -->
+              <!-- <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Page</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Home</li>
+                </ol>
+              </nav> -->
+              <!-- end breadcrumb -->
+
+             
+            <!-- welcome msg -->
+            <!-- <h2>Welcome to Sandia Group of Companies</h2> -->
+
+            <!-- homepage banner sliders, static -->
+            <div class="row d-none">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner text-center m-auto" role="listbox">
+                    <div class="carousel-item active" >
+                        <img src="assets/img/inn.jpg" class="d-block img-fluid w-100" alt="" >
+                        <div class="carousel-caption">
+                            <h1 class="sg-title">Example headline.</h1>
+                            <p>Some representative placeholder content for the first slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary " href="#">Get in Touch </a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" >
+                        <img src="assets/img/eng.jpg" class="d-block img-fluid w-100" alt="" >
+                        <div class="carousel-caption">
+                            <h1 class="sg-title">Example headline.</h1>
+                            <p>Some representative placeholder content for the first slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Get in Touch</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center" >
+                        <img src="assets/img/agric.jpg" class="d-block img-fluid w-100" alt="" >
+                        <div class="carousel-caption">
+                            <h1 class="sg-title">Example headline.</h1>
+                            <p>Some representative placeholder content for the first slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Get in touch</a></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>
+            <!-- end -->
+
+
+            <!-- Images will be added here dynamically from API -->
+            <!-- after implementing CMS -->
+            <div id="carouselExampleIndicators" class="carousel slide sgCarousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/img/eng1.jpeg" alt="First slide">
+                    <div class="carousel-caption w-100">
+                        <h1 class="sg-title mb-9">Welcome to Sandia Group.</h1>
+                        <p><a class="btn btn-lg btn-primary " href="#">Get in touch</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/img/agric1.jpg" alt="Second slide">
+                    <div class="carousel-caption w-100">
+                        <h1 class="sg-title mb-9">Welcome to Sandia Group.</h1>
+                        <p><a class="btn btn-lg btn-primary br-30" href="#">Get in touch</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/img/oil1.jpg" alt="Third slide">
+                    <div class="carousel-caption w-100">
+                        <h1 class="sg-title mb-9">Welcome to Sandia Group.</h1>
+                        <p><a class="btn btn-lg btn-primary br-30" href="#">Get in Touch</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/img/inn1.webp" alt="Fourth slide">
+                    <div class="carousel-caption w-100">
+                        <h1 class="sg-title mb-9">Welcome to Sandia Group.</h1>
+                        <p><a class="btn btn-lg btn-primary br-30" href="#">Get in Touch</a></p>
+                    </div>
+                </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            <!-- end banners -->
+
+            <!-- <div class="line"></div> -->
+
+            <!-- reasons -->
+            <div class="container d-none">
+                <h1 class="mb-10 text-center heading"> 
+                    Better Solutions at your Fingertips.
+                </h1>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                            <div class="card-body">
+                              <h5 class="card-title">A focused team with a specialized skill set.</h5>
+                              <p class="card-text">A focused team with a specialized skill set.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <!-- <img class="card-img-top" src="assets/img/" alt="Card image cap"> -->
+                            <div class="card-body">
+                              <h5 class="card-title">Well organized with the best technology.</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="site-section py-5" id="let-grow">
+                <div class="container">
+                  <div class="row justify-content-center mt-5 mb-5">
+                    <div class="col-md-7 text-center">
+                      <h2 class="site-section-heading">Let's Grow Together</h2>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 br-20 aos-init aos-animate" data-aos="slideUp" data-aos-delay="100">
+                      <div class="person text-center bg-white p-4">
+                        <h3>Mission</h3>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 br-20 aos-init aos-animate" data-aos="slideUp" data-aos-delay="200">
+                      <div class="person text-center bg-white p-4">
+                        <h3>Vision</h3>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 br-20 aos-init aos-animate" data-aos="slideUp" data-aos-delay="300">
+                      <div class="person text-center bg-white p-4">
+                        <h3>Our Objective</h3>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- end content -->
+
+            <!-- Team -->
+            <section id="team" >
+                <div class="container">
+                    <h1 data-aos="fadeInUp" class="section-title h1">What we are offering to customers
+                    </h1>
+                    <div class="row">
+                        <!-- 1 -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" >
+                                <div class="mainflip flip-0">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <img class="img-fluid" src="assets/img/eng.jpg" alt="card image">
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Energy Solutions</h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                                <!-- <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Sandia Energy </h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                                <ul class="list-inline d-none">
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-google"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .end -->
+                        <!-- 2 -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <img class="img-fluid" src="assets/img/agric.jpg" alt="card image">
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Agriculture Solutions</h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                                <!-- <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Sandia Agric</h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                                <ul class="list-inline d-none">
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            Read More
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .end -->
+                        <!-- 3 -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <p><img class="img-fluid" src="assets/img/oil-1.jpg" alt="card image"></p>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Engineering Solutions</h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                                <!-- <a href="" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Sandia Engineering</h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                                <ul class="list-inline d-none">
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-google"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <!-- 4 -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <p><img class="img-fluid" src="assets/img/inn.jpg" alt="card image"></p>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Software Solutions</h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Sandia Innovations</h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                                <ul class="list-inline d-none">
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-google"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <!-- 5 -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <img class="img-fluid" src="assets/img/inn.jpg" alt="">
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Oil & Gas</h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Sandia Oil</h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                                <ul class="list-inline d-none">
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-google"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                        <!-- 6 -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <img class="img-fluid" src="assets/img/eng.jpg" alt="card image">
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Commodities</h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Sandia Commodities</h4>
+                                                <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                                <ul class="list-inline d-none">
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                            <i class="fa fa-google"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+
+                    </div>
+                </div>
+            </section>
+            <!-- Team -->
+
+            <!-- about sandia -->
+            <section>
+            <div class="container">
+                <h1 class="section-title h1"> 
+                    We take you as a <strong>Partner</strong>, not just a <strong>Client</strong>
+                </h1> 
+                <div class="row text-center justify-content-center">
+                    <p>
+                        Sandia group of companies founded in 2006, is an integration of our companies with the objective of availing our expertise in the various sectors of the global economy such as Energy, Logistics, Engineering, Agriculture and Technology to achieve growth 
+                    </p>
+                    <p>
+                        <a href="" class="btn btn-primary mt-0">Discover More</a>
+                    </p>
+                </div>
+            </div>
+            </section>
+
+            <!-- choose us -->
+            <section class="container-xxl py-5 why-us">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h1 class="section-title h-1">Why Choose Us </h1>
+                        <h4>Providing better solutions at your fingertips! </h4>
+                    </div>
+                    <div class="row g-2 px-3 mb-5">
+                        <div class="col-lg-3 col-md-6 wow  reason" data-aos="fade-up" data-aos-delay="0" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                            <div class="team-item">
+                                <div class="text-center border border-5 border-light border-top-0 p-4">
+                                    <p>Well organized with the best technology.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow  reason" data-aos="fade-up" data-aos-delay="100" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                            <div class="team-item">
+                                <div class="text-center border border-5 border-light border-top-0 p-4">
+                                    <p>A focused team with a specialized skill set.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow  reason" data-aos="fade-up" data-aos-delay="200" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                            <div class="team-item">
+                                <div class="text-center border border-5 border-light border-top-0 p-4">
+                                    <p>Trusted and professional company for you.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow reason" data-aos="fade-up" data-aos-delay="300" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+                            <div class="team-item">
+                                <div class="text-center border border-5 border-light border-top-0 p-4">
+                                    <p>Experience to give you better results for your company's growth.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- stop -->
+
+            <!-- partners & clients -->
+            <section class="site-section">
+                <div class="container">
+                    <div class="row px-5">
+                        <div class="col aos-init aos-animate" data-aos="fade-in" data-aos-delay="0">
+                          <img src="assets/img/clients-05.svg" alt="Image" class="img-fluid" data-loaded="true">
+                        </div>
+                        <div class="col aos-init aos-animate" data-aos="fade-in" data-aos-delay="100">
+                          <img src="assets/img/clients-02.svg" alt="Image" class="img-fluid" data-loaded="true">
+                        </div>
+                        <div class="col aos-init aos-animate" data-aos="fade-in" data-aos-delay="200">
+                          <img src="assets/img/clients-03.svg" alt="Image" class="img-fluid" data-loaded="true">
+                        </div>
+                        <div class="col aos-init aos-animate" data-aos="fade-in" data-aos-delay="300">
+                          <img src="assets/img/clients-01.svg" alt="Image" class="img-fluid" data-loaded="true">
+                        </div>
+                        <div class="col aos-init aos-animate" data-aos="fade-in" data-aos-delay="400">
+                          <img src="assets/img/clients-04.svg" alt="Image" class="img-fluid" data-loaded="true">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+
+            <!-- clients success -->
+            <section class="site-section testimonial-wrap">
+                <div class="container mb-5">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 text-center">
+                        <h1 class="site-section-heading text-center">What our Clients are saying</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-one-item home-slider owl-carousel">
+                <div>
+                    <div class="testimonial">
+
+                    <blockquote class="mb-5">
+                        <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                    </blockquote>
+
+                    <figure class="mb-4 d-block align-items-center justify-content-center">
+                        <div><img src="assets/img/img-3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
+                        <p>John Smith</p>
+                    </figure>
+                    </div>
+                </div>
+                <div>
+                    <div class="testimonial">
+
+                    <blockquote class="mb-5">
+                        <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                    </blockquote>
+                    <figure class="mb-4 d-block align-items-center justify-content-center">
+                        <div><img src="assets/img/img-3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
+                        <p>Christine Aguilar</p>
+                    </figure>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="testimonial">
+
+                    <blockquote class="mb-5">
+                        <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                    </blockquote>
+                    <figure class="mb-4 d-block align-items-center justify-content-center">
+                        <div><img src="assets/img/img-3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
+                        <p>Robert Spears</p>
+                    </figure>
+
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="testimonial">
+
+                    <blockquote class="mb-5">
+                        <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                    </blockquote>
+                    <figure class="mb-4 d-block align-items-center justify-content-center">
+                        <div><img src="assets/img/img-3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
+                        <p>Bruce Rogers</p>
+                    </figure>
+
+                    </div>
+                </div>
+
+                </div>
+            </section>
+            <!--  -->
+
+            <!-- testimonials -->
+            <div class="demo d-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-offset-2 col-md-8">
+                            <!-- <span class="top-icon"><i class="fa fa-quote-left"></i></span> -->
+                            <div id="testimonial-slider" class="owl-carousel">
+                                <div class="testimonial">
+                                    <div class="pic">
+                                        <img src="assets/img/img-3.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <h3 class="testimonial-title">Williamson - Web Developer</h3>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet animi blanditiis consequatur debitis dicta distinctio, enim error eum iste libero modi nam natus perferendis possimus quasi sint sit tempora voluptatem. Est, exercitationem id ipsa ipsum laboriosam perferendis temporibus!
+                                        </p>
+                                    </div>
+                                </div>
+             
+                                <div class="testimonial">
+                                    <div class="pic">
+                                        <img src="assets/img/img-3.jpg" alt="">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <h3 class="testimonial-title">kristiana - Web Designer</h3>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet animi blanditiis consequatur debitis dicta distinctio, enim error eum iste libero modi nam natus perferendis possimus quasi sint sit tempora voluptatem. Est, exercitationem id ipsa ipsum laboriosam perferendis temporibus!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="bottom-icon"><i class="fa fa-quote-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end testimonials -->
+            
+            
+            <!-- footer -->
+            <div class="container-fluid footer mt-5 mb-3 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                <div class="container py-0">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="mb-4">Address</h5>
+                            <p class="mb-3">
+                                <i class="fa fa-map-marker-alt me-1"></i>
+                                <b>Location:</b> </br>
+                                3rd Floor Movenpick <br/>
+                                Ambassador Hotel, <br/>
+                                Independence Avenue, <br/>
+                                Accra-Ghana.
+                            </p>
+                            <p class="mb-3">
+                                <i class="fas fa-phone me-1 "></i>
+                                <b>Telephone:</b></br>
+                                +233 (0) 302 769 055 <br/>
+                                +233 (0) 302 769 056
+                            </p>
+                            <p class="mb-3">
+                                <i class="fa fa-envelope me-2"></i><span><b>Email:</b></span>
+                                <a href="mailto:info@sandiagroup.com">welcome@sandiagroup.com </a>
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="mb-4">Our Expertise</h4>
+                            <a class="btn btn-link" href="">Sandia Energy</a>
+                            <a class="btn btn-link" href="">Sandia Agric</a>
+                            <a class="btn btn-link" href="">Sandia Engineering</a>
+                            <a class="btn btn-link" href="">Sandia Innovations</a>
+                            <a class="btn btn-link" href="">Sandia Commodities</a>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="mb-4">Quick Links</h4>
+                            <ul class="list-unstyled">
+                                <li><a class="btn btn-link" href="">About Us</a></li>
+                                <li><a class="btn btn-link" href="">Management Team</a></li>
+                                <li><a class="btn btn-link" href="">Success Stories</a></li>
+                                <li><a class="btn btn-link" href="">Careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="mb-4">Newsletter</h4>
+                            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                            <div class="position-relative mx-auto" style="max-width: 400px;">
+                                <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                                <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                                © 2024 - <a class="border-bottom" href="#">Sandia Group</a>, All Right Reserved.
+                            </div>
+                            <div class="col-md-6 text-center text-md-end ">
+                                Designed By <a class="border-bottom" href="https://sansarinnovations.com">sansarinnovations</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+
+        </div>
+        
+
+    </div>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!-- animations -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+
+
+    <!-- owl carousel -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <script type="text/javascript">
+        AOS.init(); // initialise aos
+
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+
+            // desktop-menu-icon
+            $('.desktop-menu-icon').on('click', function(){
+                if ($(this).hasClass('active')) {
+                    $(this).removeClass('active');
+                } else {
+                    $(this).addClass('active');
+                }
+            });
+
+            // owl carousel - testimonials
+            $("#testimonial-slider").owlCarousel({
+                items:1,
+                itemsDesktop:[1000,1],
+                itemsDesktopSmall:[979,1],
+                itemsTablet:[768,1],
+                pagination: true,
+                slideSpeed:1000,
+                singleItem:true,
+                transitionStyle:"fadeUp",
+                autoPlay:true
+            });
+
+            //owl
+            
+	
+	var siteCarousel = function () {
+		if ( $('.nonloop-block-13').length > 0 ) {
+			$('.nonloop-block-13').owlCarousel({
+				center: false,
+				items: 1,
+				loop: true,
+				stagePadding: 0,
+				margin: 0,
+				autoplay: true,
+				nav: true,
+				navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">'],
+				responsive:{
+					600:{
+						margin: 0,
+						nav: true,
+						items: 2
+					},
+					1000:{
+						margin: 0,
+						stagePadding: 0,
+						nav: true,
+						items: 3
+					},
+					1200:{
+						margin: 0,
+						stagePadding: 0,
+						nav: true,
+						items: 4
+					}
+				}
+			});
+		}
+
+		$('.slide-one-item').owlCarousel({
+			center: false,
+			items: 1,
+			loop: true,
+			stagePadding: 0,
+			margin: 0,
+			smartSpeed: 1000,
+			autoplay: true,
+			pauseOnHover: false,
+			nav: true,
+			navText: ['<span class="icon-keyboard_arrow_left">', '<span class="icon-keyboard_arrow_right">']
+		});
+	};
+	siteCarousel();
+        });
+    </script>
+</body>
+
+</html>
